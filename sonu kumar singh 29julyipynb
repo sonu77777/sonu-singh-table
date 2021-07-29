@@ -1,0 +1,110 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "609f72f9-9fb8-4901-a65f-e58ba03a400b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "m1=int(input(\"enter candidate number:\"))\n",
+    "m2=int(input(\"enter round:\"))\n",
+    "m3=input(\"enter name:\")\n",
+    "m4=int(input(\"enter registration number:\"))\n",
+    "m5=int(input(\"enter grade:\"))\n",
+    "m6=input(\"enter school number:\")\n",
+    "m7=input(\"enter gender:\")\n",
+    "m8=input(\"city of residence:\")\n",
+    "m9=input(\"country of residence:\")\n",
+    "m10=int(input(\"enter question number:\"))\n",
+    "m11=int(input(\"enter score:\"))\n",
+    "m12=int(input(\"enter your score:\"))\n",
+    "m13=input(\"enter final result:\")\n",
+    "print(m1)\n",
+    "print(m2)\n",
+    "print(m3)\n",
+    "print(m4)\n",
+    "print(m5)\n",
+    "print(m6)\n",
+    "print(m7)\n",
+    "print(m8)\n",
+    "print(m9)\n",
+    "print(m10)\n",
+    "print(m11)\n",
+    "print(m12)\n",
+    "print(m13)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "2402cce8-197d-4edd-af02-9ae451683a69",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from tkinter import *"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "6d24cf5a-2300-4f8d-be90-328136f0a529",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "win=Tk()\n",
+    "win.geometry(\"400x300\")\n",
+    "win.configure(bg=\"yellow\")\n",
+    "win.mainloop()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "67f9add9-370a-4f15-82f5-e0e8c8e86c7c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from PIL import Image,ImageTk\n",
+    "win=Tk()\n",
+    "win.state(\"zoomed\")\n",
+    "\n",
+    "img=Image.open(\"c:/vivan.jpg\")\n",
+    "tk_img=ImageTk.PhotoImage(image=img,master=win)\n",
+    "\n",
+    "l=Label(win,image=tk_img)\n",
+    "l.place(x=0,y=0)\n",
+    "win.mainloop()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c7944143-ed54-45fe-b21f-edabed126f35",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
